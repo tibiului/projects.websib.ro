@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #e4e4ee;
+}
+
+button {
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    background: #0f8cf3;
+    cursor: pointer;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+a {
+    margin: 0 2rem;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: white;
+    color: #0f8cf3;
+    transition: all ease-in-out 0.5s;
+}
+
+.projects-col {
+    background-color: #76D0FE;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: left;
+    margin-left: 2rem;
+
+}
+
+
+
+
+@media(max-width: 575px) {
+    .section {
+        display: block;
+    }
+}
